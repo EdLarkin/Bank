@@ -8,6 +8,16 @@ namespace ClassLibrary1
 {
     public class Class1
     {
-        //a coonet
+      public bool TestMe()
+        {
+            int x = 1;
+            if (x == 1)
+            {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
     }
 }
